@@ -11,7 +11,7 @@ def main():
         key = sys.argv[1]
 
     except (IndexError):
-        print('引数がないです', file=sys.stderr)
+        print('引数がないです')
         sys.exit(1)
 
     # ifで確認して実行
@@ -25,7 +25,7 @@ def main():
         module3.start()
 
     else:
-        print('moduleがないです', file=sys.stderr)
+        print('moduleがないです')
         sys.exit()
 
 # main関数を実行
